@@ -1,0 +1,15 @@
+npm
+npm does not stand for Node Package Manager. It is, however, the package manager for Node. (They don't say what it stands for.) It also has all the packages in the front end scene. npm makes a command line tool, called npm as well. npm allows you to bring in code from the npm registry which is a bunch of open source modules that people have written so you can use them in your project. Whenever you run npm install react (don't do this yet), it will install the latest version of React from the registry.
+
+In order to start an npm project, run npm init at the root of your project. If you don't have Node.js installed, please go install that too. When you run npm init it'll ask you a bunch of questions. If you don't know the answer or don't care, just hit enter. You can always modify package.json later. This will allow us to get started installing and saving packages.
+
+Hot Module Refresh is what happens when we do some changes in our code, and they get automatically render in our browser.It's because of Parcel, which is a bundler for JavaScript that requires no configuration. When installed Parcel will compile all of a project's code into one complete file.
+
+We can export a component from it's file and import into another component's file, thus helps in maintaining separate files for each component. This is kind a magic that having a bunlder allows us to have.
+
+Babel, a transpiler tool that converts modern JavaScript features to code that is compatible older browsers specified by the browserslist property in the package.json file
+Babel is a core part of the JavaScript tooling ecosystem. At its core it is a transpilation tool: it takes that looks one way and transforms it it into a different looking set of code. One of its core uses to transform futuristic JavaScript (like ES2021) to an older version of JavaScript (like ES5 i.e. JavaScript before 2015) so that older browsers can use your newer JavaScript. Babel also handles things like JSX for us and it can handle TypeScript too.
+
+/* Not the part of notes, just to remind me to run following commands while I was following the course, as it didn't run in first attempt
+- npm run format and then enable formatOnSave: true, requireConfig: true in VSCode settings
+- npm run lint
